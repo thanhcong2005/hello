@@ -1,24 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-/*
-    Toan tu toan hoc: + - * / % ++ --
-    Toan tu so sanh: == != > >= < <=
-    Toan tu logic && || !
-    Toan tu gan: = += *= -= %=
-*
 int main()
 {
-    int a =100 ,b =200;
-    int c,d;
-    c =a/b;
-    c = ++a;
-    a = 100;
-    d = a++;
-    a || b;
-        printf("c = %d",c);
-        printf("c = %d",d);
-    return 0;
-}
+    int Tien=100;
 
+    if (Tien >=1000) {
+        printf("Co mot nghin dong");
+
+    }
+    else {
+        printf("Khong co mot nghin dong");
+
+    }
+
+}
